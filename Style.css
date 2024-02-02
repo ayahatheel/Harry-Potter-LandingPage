@@ -1,13 +1,23 @@
-body { background-image: url(Imges/wallbg.png);
+body { background-image: url(Imges/wallbg1.png);
     background-size: cover;
+    display: flex;
 justify-content: center;
 align-items: center;
 height: 100vh;}
 
-#main { 
+image {
+    height: auto;
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #main { 
     background-image: url(Imges/paper.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 100%; 
-}
+} */
+
+
